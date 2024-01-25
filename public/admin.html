@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin | Puddle Ts</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo"><a href="#">Puddle</a></div>
+        <div class="links">
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="./index.html" target="_blank">User</a></li>
+        </div>
+    </nav><hr>
+    <div id="itemformcontainer">
+        <button id="add-item-btn">Add Item</button>
+        <form class="item-form" style="display: none;">
+            <input type="text" id="name" placeholder="Enter item name">
+            <div class="nameerr"></div>
+            <input type="text" id="image" placeholder="Enter item image link">
+            <div class="imageerr"></div>
+            <input type="text" id="description" placeholder="Enter item description">
+            <div class="descerr"></div>
+            <input type="number" id="price" placeholder="Enter item price">
+            <div class="priceerr"></div>
+            <input type="submit" value="Create Item" id="create-item-btn">
+        </form>
+    </div>
+    <div class="item-cards">
+        <!-- <div class="card">
+            <img src="./assets/Mens-Red-Classic-Ankle-Socks-MASOSSRED_1.jpg" alt="" class="card-img">
+            <div class="card-details">
+                <h4 class="title">Lorem ipsum</h4>
+                <p class="body">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, doloremque.</p>
+                <h3 class="price">Ksh 100</h3>
+            </div>
+            <div class="action-btns">
+                <a href="#">Delete</a>
+                <a href="#">View Item</a>
+            </div>
+        </div> -->
+        <!-- <img src="./assets/shoes-1897708_1280.jpg" alt=""> -->
+    </div>
+</body>
+<script src="../dist/index.js"></script>
+</html>
